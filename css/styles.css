@@ -50,7 +50,7 @@ body {
 }
 
 /* Преимущества */
-.dvantages-title {
+.advantages-title {
   color: var(--secondary-text-color);
 }
 
@@ -59,7 +59,7 @@ body {
   color: var(--secondary-text-color);
 }
 .team-list-title {
-  olor: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 /* Кнопки портфолио */
