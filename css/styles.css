@@ -1,3 +1,74 @@
-.body {
-  background: chartreuse;
+/* основной цвет текста #757575 */
+/* вторичный цвет текста  #212121*/
+/* Акцент #2196F3 */
+/* наша команда #F5F4FA */
+/* футер #2F303A*/
+/* Белый #FFFFFF */
+/* герой #2F303A */
+
+:root {
+  --primery-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-bg-color: #f5f4fa;
+}
+body {
+  background-color: var(--primery-bg-color);
+  color: var(--primery-text-color);
+}
+.list {
+  list-style: none;
+}
+
+/* Навигация */
+.nav {
+}
+.nav-link {
+  color: var(--secondary-text-color);
+}
+.nav-information {
+  color: var(--primery-text-color);
+}
+.nav-link-list:hover,
+.nav-link-list:focus {
+  color: var(--accent-color);
+}
+.nav-information-list:hover,
+.nav-information-list:focus {
+  color: var(--accent-color);
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+/* Примеры работ */
+.example-title {
+  color: var(--secondary-text-color);
+}
+
+/* Преимущества */
+.dvantages-title {
+  color: var(--secondary-text-color);
+}
+
+/* Наша команда */
+.team-title {
+  color: var(--secondary-text-color);
+}
+.team-list-title {
+  olor: var(--secondary-text-color);
+}
+
+/* Кнопки портфолио */
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--primery-bg-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--primery-bg-color);
+  background-color: var(--accent-color);
 }
