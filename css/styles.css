@@ -27,6 +27,8 @@ body {
 
 .logo {
   font-family:Raleway, sans-serif;
+  line-height:1.2;
+  letter-spacing: 3%;
 }
 .nav-link {
   color: var(--secondary-text-color);
@@ -48,20 +50,34 @@ body {
 }
 .hero-title {
   color: #ffffff;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing:6%;
 }
 .button-hero {
   color: var(--primery-bg-color);
-  background-color:var(--accent-color) ;
+  background-color:var(--accent-color);
+  font-family:inherit;
+  Font-style:700;
+  Font-size:16px;
+  line-height:1.9;
+  vertical-align:centr;
+  Letter-spacing: 6%; 
 } 
-/* Примеры работ */
-.example-title {
-  color: var(--secondary-text-color);
-}
 
 /* Преимущества */
 .advantages-title {
   color: var(--secondary-text-color);
 }
+
+
+
+/* Примеры работ */
+.example-title {
+  color: var(--secondary-text-color);
+}
+
+
 
 /* Наша команда */
 .team-title {
