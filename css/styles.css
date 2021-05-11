@@ -15,13 +15,18 @@
 body {
   background-color: var(--primery-bg-color);
   color: var(--primery-text-color);
-}
-.list {
-  list-style: none;
+  font-family:Roboto, sans-serif;
+  /* letter-spacing: 3%; */
 }
 
+.list {
+  list-style: none;
+} 
+
 /* Навигация */
-.nav {
+
+.logo {
+  font-family:Raleway, sans-serif;
 }
 .nav-link {
   color: var(--secondary-text-color);
@@ -44,6 +49,10 @@ body {
 .hero-title {
   color: #ffffff;
 }
+.button-hero {
+  color: var(--primery-bg-color);
+  background-color:var(--accent-color) ;
+} 
 /* Примеры работ */
 .example-title {
   color: var(--secondary-text-color);
@@ -62,6 +71,10 @@ body {
   color: var(--secondary-text-color);
 }
 
+/* Футер */
+
+
+/* Портфолио */
 /* Кнопки портфолио */
 .button {
   color: var(--secondary-text-color);
@@ -72,4 +85,8 @@ body {
   color: var(--primery-bg-color);
   background-color: var(--accent-color);
 }
-/* Футер */
+
+/* Проекты */
+.project-title {
+color: var(--secondary-text-color);
+}
