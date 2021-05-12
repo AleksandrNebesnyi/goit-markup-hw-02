@@ -16,25 +16,40 @@ body {
   background-color: var(--primery-bg-color);
   color: var(--primery-text-color);
   font-family:Roboto, sans-serif;
-  /* letter-spacing: 3%; */
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 .list {
-  list-style: none;
+  list-style:none;
 } 
+/* .link {
+  text-decoration:none;
+} */
 
 /* Навигация */
 
 .logo {
   font-family:Raleway, sans-serif;
+  font-size:26px;
   line-height:1.2;
-  letter-spacing: 3%;
-}
+ }
 .nav-link {
   color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size:14px;
+  line-height:1.1;
+  text-decoration: none;
+  letter-spacing:0.02em;
 }
 .nav-information {
   color: var(--primery-text-color);
+  font-weight: 500;
+  font-size:14px;
+  line-height:1.1;
+  text-decoration: none;
+  letter-spacing:0.02em;
 }
 .nav-link-list:hover,
 .nav-link-list:focus {
@@ -50,9 +65,11 @@ body {
 }
 .hero-title {
   color: #ffffff;
+  font-weight:900;
   font-size: 44px;
   line-height: 1.4;
-  letter-spacing:6%;
+  text-align: center;
+  letter-spacing:0.06em;
 }
 .button-hero {
   color: var(--primery-bg-color);
@@ -61,31 +78,48 @@ body {
   Font-style:700;
   Font-size:16px;
   line-height:1.9;
-  vertical-align:centr;
-  Letter-spacing: 6%; 
+  vertical-align:centr;  
+  Letter-spacing:0.06em; 
 } 
 
 /* Преимущества */
 .advantages-title {
   color: var(--secondary-text-color);
+  line-height:1.1;
 }
 
-
+.advanteges-description {
+line-height:1.7;
+}
 
 /* Примеры работ */
 .example-title {
   color: var(--secondary-text-color);
+
+  font-size:36px;
+  line-height:1.2;
+  text-align: center;
 }
-
-
 
 /* Наша команда */
 .team-title {
   color: var(--secondary-text-color);
+
+  font-size:36px;
+  line-height:1.2;
+  text-align: center;
 }
 .team-list-title {
-  color: var(--secondary-text-color);
-}
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.2;
+ }
+
+ .team-description {
+  font-size: 16px;
+    line-height:1.2; 
+ }
 
 /* Футер */
 
