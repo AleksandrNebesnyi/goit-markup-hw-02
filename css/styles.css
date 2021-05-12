@@ -34,21 +34,25 @@ body {
   font-size:26px;
   line-height:1.2;
  }
-.nav-link {
+.nav-link-list {
   color: var(--secondary-text-color);
 
   font-weight: 500;
   font-size:14px;
   line-height:1.1;
   letter-spacing:0.02em;
+  text-decoration: none;
+  
 }
-.nav-information {
+.nav-information-list {
   color: var(--primery-text-color);
+
   font-weight: 500;
   font-size:14px;
   line-height:1.1;
-  text-decoration: none;
   letter-spacing:0.02em;
+  text-decoration: none;
+
 }
 .nav-link-list:hover,
 .nav-link-list:focus {
@@ -64,6 +68,7 @@ body {
 }
 .hero-title {
   color: #ffffff;
+
   font-weight:900;
   font-size: 44px;
   line-height: 1.4;
@@ -73,12 +78,14 @@ body {
 .button-hero {
   color: var(--primery-bg-color);
   background-color:var(--accent-color);
+
   font-family:inherit;
   Font-style:700;
   Font-size:16px;
   line-height:1.9;
   vertical-align:centr;  
-  Letter-spacing:0.06em; 
+  letter-spacing:0.06em;
+  cursor: pointer; 
 } 
 
 /* Преимущества */
@@ -109,21 +116,26 @@ line-height:1.7;
   text-align: center;
 }
 .team-list-title {
-    color: var(--secondary-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height:1.2;
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.2;
  }
 
- .team-description {
+.team-description {
   font-size: 16px;
-    line-height:1.2; 
+  line-height:1.2; 
  }
 
 /* Футер */
-.address-list {
+
+.footer {
+  background-color: #2F303A;
+}
+.nav-information-list {
     font-size:14px;
     line-height:1.7;
+    text-decoration: none;
      }
 
 /* Портфолио */
@@ -131,6 +143,12 @@ line-height:1.7;
 .button {
   color: var(--secondary-text-color);
   background-color: var(--primery-bg-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.6;
+  cursor: pointer;
+  
 }
 .button:hover,
 .button:focus {
@@ -141,4 +159,16 @@ line-height:1.7;
 /* Проекты */
 .project-title {
 color: var(--secondary-text-color);
+
+Font-size: 18px;
+line-height:2;
+letter-spacing:0.06em; 
+text-decoration: none;
+}
+
+.project-description {
+  color: var(--primery-text-color);
+
+  font-size:16px;
+  line-height:1.9;
 }
